@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class BaekJoon2581_1 {
+public class BaekJoon2581_1_finish {
 
     // 소수를 구하는 매커니즘 : 에라토스테네스의 체
     /* 
@@ -38,6 +38,9 @@ public class BaekJoon2581_1 {
                 continue;
             }
             for(int j = i * i ; j < prime.length ; j += i){ // i의 배수들을 거르기 위한 반복문
+                                                            // i * i 부터 시작하는 이유 : i*2, i*3, i*4 .... i*(i-1)은 이미 모두 어떤 수들의 배수이기 때문에
+                                                            // 굳이 체크를 안해도 된다 (원래 정의대로 i*2에서부터 시작한다고 해도 i*3 i*4 ... i*(i-1)이기 때문에)
+                                                            // i * i 부터 시작하는것과 모두 중복됨!!
                                                             // 예를들어 i가 3이면? j = 9부터 시작하여(3의 배수인 6은 이미 i = 2일때 걸러졌다, 다른 경우도 마찬가지)
                                                             // j += i 이므로 다음 반복문에서 j = 12가 된다! (즉, 3의 배수...)
                                                             // 즉, i의 배수를 반복하는 매커니즘이 되는 것이다

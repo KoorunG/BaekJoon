@@ -1,0 +1,195 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch BaekJoon1002",
+            "request": "launch",
+            "mainClass": "BaekJoon1002",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon3052",
+            "request": "launch",
+            "mainClass": "BaekJoon3052",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon1065_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon1065_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon10814",
+            "request": "launch",
+            "mainClass": "BaekJoon10814",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon11054",
+            "request": "launch",
+            "mainClass": "BaekJoon11054",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon1065",
+            "request": "launch",
+            "mainClass": "BaekJoon1065",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon10757",
+            "request": "launch",
+            "mainClass": "BaekJoon10757",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon10870_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon10870_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon10872_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon10872_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon11022_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon11022_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon11047_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon11047_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon11399_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon11399_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon1712_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon1712_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon18258",
+            "request": "launch",
+            "mainClass": "BaekJoon18258",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon1929",
+            "request": "launch",
+            "mainClass": "BaekJoon1929",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon1978_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon1978_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon2577_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon2577_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon2581_1_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon2581_1_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon2581_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon2581_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon2839_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon2839_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon2941_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon2941_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon4673_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon4673_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon9020",
+            "request": "launch",
+            "mainClass": "BaekJoon9020",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BaekJoon9020_finish",
+            "request": "launch",
+            "mainClass": "BaekJoon9020_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch BakeJoon1712_finish",
+            "request": "launch",
+            "mainClass": "BakeJoon1712_finish",
+            "projectName": "BaekJoon_eedb11b1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Coding_Test01",
+            "request": "launch",
+            "mainClass": "baekjoon.Coding_Test01"
+        }
+    ]
+}

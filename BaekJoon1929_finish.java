@@ -1,25 +1,22 @@
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
-public class BaekJoon1929 {
+public class BaekJoon1929_finish {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] s = br.readLine().split(" ");
-        int m = Integer.parseInt(s[0]);
-        int n = Integer.parseInt(s[1]);
+        Scanner sc = new Scanner(System.in);
+        int m = sc.nextInt();
+        int n = sc.nextInt();
         makePrime(n);
         for(int i = m ; i <= n ; i++){
             if(prime[i] == false){
                 System.out.println(i);
             }
         }
-        br.close();
+        sc.close();
     }
-
     private static boolean[] prime;
     private static void makePrime(int n){
-        prime = new boolean[n + 1];
+        prime = new boolean[1000001];
 
         if(n < 2){
             return;
@@ -27,11 +24,11 @@ public class BaekJoon1929 {
 
         prime[0] = prime[1] = true;
 
-        for(int i = 2 ; i < Math.sqrt(n); i++){
+        for(int i = 2 ; i < Math.sqrt(1000000); i++){
             if(prime[i] == true){
                 continue;
             }
-            for(int j = i * i ; j <prime.length; j += i){
+            for(int j = i * i ; j < 1000000 ; j += i){
                 prime[j] = true;
             }
             

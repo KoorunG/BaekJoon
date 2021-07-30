@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BaekJoon4948 {
+public class BaekJoon4948_finish {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
@@ -11,10 +11,9 @@ public class BaekJoon4948 {
         }
         makePrime(n);
         int count = 0;
-        for(int i = 0 ; i <= 2 ; i++){
+        for(int i = n + 1 ; i <= 2*n ; i++){
             if(prime[i] == false){
-                // count++;
-                System.out.println(i);
+                count++;
             }
         }
         System.out.println(count);
@@ -25,12 +24,12 @@ public class BaekJoon4948 {
 
     private static boolean[] prime;
     private static void makePrime(int n){
-        prime = new boolean[123457];
+        prime = new boolean[n*2 + 1];
         prime[0] = prime[1] = true;
         if(n < 2){
             return;
         }
-        for(int i = 2 ; i <= Math.sqrt(n) ; i++){
+        for(int i = 2 ; i <= Math.sqrt(prime.length) ; i++){
             if(prime[i] == true){
                 continue;
             }

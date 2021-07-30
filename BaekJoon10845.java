@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
  
 public class BaekJoon10845 {
  
-	static int[] q = new int[2000000];	// 명령의 수는 2,000,000을 안넘음 
+	static int[] q = new int[100001]; 
 	
 	static int size = 0;	
 	static int front = 0;
